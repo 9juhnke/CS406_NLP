@@ -39,7 +39,7 @@ The system follows a four-stage pipeline:
 
 We define the daily sentiment signal $S_t$ by weighting the model's probability outputs ($P$) with the log-normalized user engagement ($w_i$):
 
-$$S_t=\sum_i w_i\;\cdot\;\left(P_{\text{pos}} - P_{\text{neg}}\right)\;\cdot\;\ln\!\left(1 + N_{\text{eff}}\right)$$
+$$S_t=\sum_i w_i \cdot \left(P_{\text{pos}} - P_{\text{neg}}\right) \cdot \ln \left(1 + N_{\text{eff}}\right)$$
 
 
 ## Results
@@ -64,10 +64,9 @@ During the earnings volatility in August 2024, the sentiment signal closely mirr
 
 ```bash
 .
-├── nlp_and_finance.ipynb      # Jupyter Notebook (Training, Inference, Backtesting)
-├── NLP4Web_Project_Report.pdf # Final Scientific Report
-├── images/                    # Plots and diagrams for this README
-└── README.md                  # This Project documentation
+├── nlp_and_finance.ipynb     # Jupyter NB (Training, Inference, Backtesting)
+├── CS_4...Project_Report.pdf # Final Scientific Report
+└── README.md                 # This Project documentation
 
 ```
 
